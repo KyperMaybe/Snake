@@ -1,0 +1,34 @@
+DB_BASE = {
+    'host': 'fxtun.ru',
+    'database': 'SnakeGameDB',
+    'username': 'student',
+    'password': '1010',
+}
+
+DB_PORTS = [10000, 10001, 10002, 10003, 10004, 10005]
+
+FIELD_W = 600
+FIELD_H = 400
+BLOCK = 20
+FPS = 10
+MAX_NAME_LEN = 16
+COUNTDOWN_MS = 800
+TOP_LIMIT = 5
+MIN_WIN_W = FIELD_W + 40
+MIN_WIN_H = FIELD_H + 40
+
+BG = (18, 22, 30)
+GRID = (28, 34, 45)
+SNAKE_HEAD = (80, 220, 100)
+SNAKE_BODY = (40, 160, 60)
+SNAKE_DEAD = (200, 60, 60)
+FOOD = (230, 60, 60)
+WHITE = (240, 240, 240)
+GRAY = (130, 130, 140)
+DARK_GRAY = (50, 55, 65)
+GREEN = (80, 220, 100)
+RED = (230, 80, 80)
+YELLOW = (240, 210, 80)
+BLUE = (60, 110, 180)
+BLUE_HOVER = (80, 140, 220)
+HIGHLIGHT = (90, 150, 230)
